@@ -2,7 +2,7 @@ name: Update Filter Lists
 
 on:
   schedule:
-    - cron: "0 17 * * 0"
+    - cron: '0 20 * * Wed,Thu,Fri'
   workflow_dispatch:
 
 concurrency:
