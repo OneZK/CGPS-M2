@@ -16,7 +16,7 @@ import { notifyWebhook } from "./lib/helpers.js";
     return;
   }
 
-  const cgpsLists = lists.filter(({ name }) => name.startsWith("CGPS List"));
+  const cgpsLists = lists.filter(({ name }) => name.startsWith("ZGPS List"));
 
   if (!cgpsLists.length) {
     console.warn(
@@ -26,7 +26,7 @@ import { notifyWebhook } from "./lib/helpers.js";
   }
 
   console.log(
-    `Got ${lists.length} lists, ${cgpsLists.length} of which are CGPS lists that will be deleted.`
+    `Got ${lists.length} lists, ${cgpsLists.length} of which are ZGPS lists that will be deleted.`
   );
 
   console.log(`Deleting ${cgpsLists.length} lists...`);
