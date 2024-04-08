@@ -2,7 +2,7 @@ name: Update Filter Lists HOME
 
 on:
   schedule:
-    - cron: '0 22 * * Sat,Sun,Mon'
+    - cron: '30 22 * * Fri'
   workflow_dispatch:
 
 concurrency:
