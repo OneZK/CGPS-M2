@@ -1,3 +1,6 @@
+#110,000
+
+
 # Cloudflare Gateway Pi-hole Scripts (CGPS)
 
 ![Cloudflare Gateway Analytics screenshot](.github/images/gateway_analytics.png)
