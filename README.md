@@ -1,4 +1,4 @@
-#110,000
+# 110,000
 
 
 # Cloudflare Gateway Pi-hole Scripts (CGPS)
