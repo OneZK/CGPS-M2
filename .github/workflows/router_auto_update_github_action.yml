@@ -1,4 +1,4 @@
-name: Update Filter Lists HOME
+name: Router Update Filter Lists
 
 on:
   schedule:
