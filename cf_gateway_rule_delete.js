@@ -2,7 +2,7 @@ import { deleteZeroTrustRule, getZeroTrustRules } from "./lib/api.js";
 import { notifyWebhook } from "./lib/utils.js";
 
 const { result: rules } = await getZeroTrustRules();
-const cgpsRules = rules.filter(({ name }) => name.startsWith("CGPS Filter Lists"));
+const cgpsRules = rules.filter(({ name }) => name.startsWith("ZGPS Filter Lists"));
 
 (async () => {
   if (!cgpsRules.length) {
