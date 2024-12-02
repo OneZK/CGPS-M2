@@ -14,7 +14,7 @@ import { notifyWebhook } from "./lib/utils.js";
     return;
   }
 
-  const cgpsLists = lists.filter(({ name }) => name.startsWith("CGPS List"));
+  const cgpsLists = lists.filter(({ name }) => name.startsWith("ZGPS List"));
 
   if (!cgpsLists.length) {
     console.warn(
